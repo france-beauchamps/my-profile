@@ -1,0 +1,114 @@
+body {
+  background: rgb(225, 225, 225);
+  color: rgb(35,35,35);
+  font-family: 'Raleway', serif;
+  font-size: 22px;
+}
+
+h1, h2 {
+  font-family: 'Marmelad', sans-serif;
+}
+
+h1 {
+  color: rgb(34,35,141);
+  font-size: 52px;
+  font-weight: 900;
+}
+
+h2 {
+  color: rgb(218,64,42);
+  font-size: 32px;
+  font-weight: 500;
+}
+
+a {
+  font-family: 'Marmelad', sans-serif;
+  text-decoration: none;
+  color: rgb(34,35,141);
+  font-weight: 400;
+  font-size: 26px;
+}
+
+a:hover {
+  color: black;
+}
+
+.container {
+  width: 850px;
+  margin: 40px auto;
+}
+
+@media (max-width: 960px) {
+ 
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+
+  .container {
+    width: 300px;
+  }
+}
+
+.rect-blanc {
+  background-color: white;
+  padding: 40px;
+  border: 1px solid lightgrey;
+  border-radius: 6px;
+  margin: 25px 0px;
+  text-align: center;
+}
+
+.rect-blanc:hover {
+  transition: all 0.2s ease-out;
+  border: 1px solid grey;
+  box-shadow: 0px 10px 30px 0px rgba(0,0,0,0.3);
+}
+
+#premier-rect p {
+	margin-bottom: 60px;
+}
+
+.avatar-circle {
+  border-radius: 50%;
+}
+
+.bouton-black{
+  background-color: rgb(34 35 141);
+  color: white;
+  padding: 15px 20px;
+  border-radius: 6px;
+}
+
+.bouton-black:hover{
+  background-color: black;
+  color: white;
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+}
+
+.list-inline li {
+  display: inline;
+  padding: 10px;
+}
+
+.list-inline i {
+  font-size: 50px;
+  color: rgb(34,35,141);
+}
+
+.list-inline i:hover {
+  color: black;
+}
